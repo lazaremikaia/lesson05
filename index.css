@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-Black.woff2') format('woff2'),
+         url('./Poppins-Black.ttf') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
 .iconanalystic{
 			height: 30px; width: 40px;
 }
@@ -18,4 +26,18 @@ section{
 	height: 900px;
 	left: 0px;
 	top: 0px;
+}
+.analytics{
+background: rgba(255, 255, 255, 1);
+display: inline-block;
+width: 10px;
+height:  10px;
+left: 10px;
+top: px;
+}
+.websites {
+	 font-family: 'Poppins';
+}
+h3 {
+	font-family: 'Poppins';
 }
